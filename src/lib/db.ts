@@ -1,5 +1,10 @@
 import mysql from "mysql2/promise";
 
+// Extend globalThis type to include __mysqlPool
+declare global {
+  var __mysqlPool: mysql.Pool | undefined;
+}
+
 let pool: mysql.Pool;
 
 if (!globalThis.__mysqlPool) {

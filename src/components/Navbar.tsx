@@ -78,7 +78,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="hidden lg:flex items-center w-[370px] h-4 space-x-2">
-          <ScheduleButton size={"small"} color={"darkblue"} />
+          {/* <ScheduleButton size={"small"} color={"darkblue"} /> */}
           <CallButton size="small" />
         </div>
         <FontAwesomeIcon

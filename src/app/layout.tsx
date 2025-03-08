@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-y-scroll scrollbar-hide`}>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <AuthProvider>
           <Navbar />
