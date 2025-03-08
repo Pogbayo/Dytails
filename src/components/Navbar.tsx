@@ -25,9 +25,9 @@ export default function Navbar() {
           !isOpened && "shadow-lg"
         }`}
       >
-        <Link href={"/"} className="xl:hidden">
+        {/* <Link href={"/"} className="xl:hidden">
           <Image src={plainLogo} alt="Logo" />
-        </Link>
+        </Link> */}
         <Link href="/">
           <h1 className="text-3xl font-extrabold bg-gradient-to-r from-teal to-royalblue text-transparent bg-clip-text tracking-widest uppercase drop-shadow-md transition-all duration-300 hover:drop-shadow-xl hover:scale-105">
             Dytails Investments
@@ -83,7 +83,7 @@ export default function Navbar() {
         </div>
         <FontAwesomeIcon
           icon={!isOpened ? faBars : faX}
-          className="h-full lg:hidden"
+          className="h-8 lg:hidden"
           onClick={() => setIsOpened(!isOpened)}
         />
       </div>
@@ -122,7 +122,8 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="flex flex-col justify-around items-center h-28">
-            <ScheduleButton size={"big"} color={"darkblue"} />
+            {/* <ScheduleButton size={"big"} color={"darkblue"} /> */}
+            <CallButton size={"big"} />
           </div>
         </div>
       )}

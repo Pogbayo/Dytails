@@ -18,10 +18,11 @@ export default function Home() {
         <div className="absolute inset-0 flex flex-col lg:flex-row items-center justify-between pt-8 pb-8 bg-darkblue bg-opacity-80 lg:bg-opacity-0 p-4">
           <div className="w-full lg:ml-12 lg:m-8 flex flex-col justify-between lg:justify-around h-[100vh] lg:h-96 lg:items-start">
             <div className="lg:text-left lg:p-4">
-              <h1 className="text-5xl lg:text-7xl ">
-                Dytails Investments LLC{" "}
+              <h1 className="text-3xl md:text-4xl lg:text-7xl">
+                Dytails Investments LLC
               </h1>
-              <p className="mt-2 lg:text-xl">
+
+              <p className="mt-2 text-sm md:text-base lg:text-xl">
                 Dytails Investments LLC is a diversified investment company
                 committed to transforming opportunities into growth across key
                 sectors including real estate, manufacturing, production, and
@@ -32,7 +33,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col lg:flex-row items-center lg:justify-start  h-44 space-y-4 lg:space-y-0 lg:space-x-6">
-              <ScheduleButton size={"big"} color={"gold"} />
+              {/* <ScheduleButton size={"big"} color={"gold"} /> */}
               <CallButton size="big" />
             </div>
           </div>
