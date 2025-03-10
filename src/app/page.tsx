@@ -32,7 +32,7 @@ export default function Home() {
                 communities we serve.
               </p>
             </div>
-            <div className="flex flex-col lg:flex-row items-center pb-16 lg:justify-start  h-44 space-y-4 lg:space-y-0 lg:space-x-6">
+            <div className="flex flex-col lg:flex-row items-center pb-16 lg:justify-start  h-44 space-y-4 lg:space-y-0  lg:space-x-6">
               {/* <ScheduleButton size={"big"} color={"gold"} /> */}
               <CallButton size="big" />
             </div>

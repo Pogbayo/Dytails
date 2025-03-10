@@ -21,9 +21,9 @@ export default function page() {
             />
           </div>
         </div>
-        <div className="p-6 lg:bg-royalblue rounded-3xl lg:w-[55%] lg:ml-5 lg:min:h-[450px]">
+        <div className="p-6 lg:bg-[#3d612c] rounded-3xl lg:w-[55%] lg:ml-5 lg:min:h-[450px]">
           <h2>Who we are</h2>
-          <p className="mb-4">
+          <p className="mb-4 text-darkblue">
             Dytails Investments LLC is a diversified investment company
             committed to transforming opportunities into growth across key
             sectors including real estate, manufacturing, production, and
@@ -33,7 +33,7 @@ export default function page() {
             serve.
           </p>
           <h2>Our Mission</h2>
-          <p className="mb-4">
+          <p className="mb-4 text-darkblue">
             To invest in and nurture high-potential ventures within real estate,
             manufacturing, production, and services, ensuring sustainable
             development and exceptional returns. Through strategic partnerships
@@ -41,7 +41,7 @@ export default function page() {
             and enduring value.
           </p>
           <h2>Why Choose Us</h2>
-          <p className="">
+          <p className="text-darkblue">
             Certified Professionals: Our inspectors are fully certified and
             trained to provide the highest quality inspections. Detailed
             Reports: We provide clear, comprehensive reports to help you

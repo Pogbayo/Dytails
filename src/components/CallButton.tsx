@@ -49,7 +49,7 @@ export default function CallButton({ size = "small" }: { size: string }) {
 
   const handleClick = () => {
     setModal(!modal);
-    console.log(modal);
+    // console.log(modal);
   };
 
   const handleCall = () => {
@@ -61,14 +61,14 @@ export default function CallButton({ size = "small" }: { size: string }) {
       <button
         type="button"
         onClick={handleCall}
-        className={`bg-royalblue ${height} ${width} ${lgHeight} ${lgWidth} ${rounded} ${padding} flex items-center group hover:bg-teal relative`}
+        className={`bg-[#3d612c] ${height} ${width} ${lgHeight} ${lgWidth} ${rounded} ${padding} flex items-center group hover:bg-teal relative`}
       >
         <div className="flex justify-between items-center w-full">
           <h2 className={` ml-4 lg:ml-2 ${textSize} text-white`}>
             (925) 577 7069{" "}
           </h2>
           <div
-            className={`${outerDivSize} ${lgOuterDivSize} rounded-full bg-teal p-2 flex items-center justify-center group-hover:bg-royalblue absolute right-1`}
+            className={`${outerDivSize} ${lgOuterDivSize} rounded-full  p-2 flex items-center justify-center group-hover:bg-royalblue absolute right-1`}
           >
             <FontAwesomeIcon icon={faPhone} className={iconSize} />
           </div>
