@@ -21,7 +21,7 @@ export default function page() {
             />
           </div>
         </div>
-        <div className="p-6 lg:bg-[#3d612c] rounded-3xl lg:w-[55%] lg:ml-5 lg:min:h-[450px]">
+        <div className="p-6 lg:bg-[#42752b] rounded-3xl lg:w-[55%] lg:ml-5 lg:min:h-[450px]">
           <h2>Who we are</h2>
           <p className="mb-4 text-darkblue">
             Dytails Investments LLC is a diversified investment company
