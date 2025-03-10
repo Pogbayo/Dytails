@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <div className="sticky top-0 z-40">
       <div
-        className={`sticky top-0 bg-royalblue w-full z-50 h-24 flex justify-between items-center p-6 lg:pl-16 lg:pr-16 ${
+        className={`sticky top-0 bg-[#e5d8a8] w-full z-50 h-24 flex justify-between items-center p-6 lg:pl-16 lg:pr-16 ${
           !isOpened && "shadow-lg"
         }`}
       >
@@ -39,7 +39,7 @@ export default function Navbar() {
             <Link href="/">
               <div className="group">
                 <h3
-                  className={`border-b-2  pb-1 transition-all duration-300 ${
+                  className={`border-b-2 text-gray-500 pb-1 transition-all duration-300 ${
                     pathName === "/"
                       ? "border-b-2 border-teal text-teal"
                       : "border-transparent"
@@ -52,7 +52,7 @@ export default function Navbar() {
             <Link href="/services">
               <div className="group">
                 <h3
-                  className={`border-b-2  pb-1 transition-all duration-300 ${
+                  className={`border-b-2 text-gray-500 pb-1 transition-all duration-300 ${
                     pathName === "/services"
                       ? " border-teal text-teal"
                       : "border-transparent"
@@ -65,7 +65,7 @@ export default function Navbar() {
             <Link href="/about">
               <div className="group">
                 <h3
-                  className={`border-b-2  pb-1 transition-all duration-300 ${
+                  className={`border-b-2 text-gray-500 pb-1 transition-all duration-300 ${
                     pathName === "/about"
                       ? "border-b-2 border-teal text-teal"
                       : "border-transparent"
@@ -84,6 +84,7 @@ export default function Navbar() {
         <FontAwesomeIcon
           icon={!isOpened ? faBars : faX}
           className="h-8 lg:hidden"
+          color="black"
           onClick={() => setIsOpened(!isOpened)}
         />
       </div>

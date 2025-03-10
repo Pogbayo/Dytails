@@ -1,7 +1,7 @@
 import React from "react";
 import HomepageDivider from "./HomepageDivider";
 
-export const Reviews = () => {
+export const CoreValues = () => {
   const coreValues = [
     {
       title: "Integrity",
@@ -32,16 +32,18 @@ export const Reviews = () => {
   return (
     <div className="flex flex-col items-center">
       <HomepageDivider>
-        <h1 className="text-xl font-bold">Core Values</h1>
+        <h1 className="text-3xl text-white font-bold">Core Values</h1>
       </HomepageDivider>
       <div className="mt-4 mb-6 flex flex-col lg:flex-row lg:flex-wrap justify-center min-h-[300px] lg:min-h-[500px]">
         {coreValues.map((value, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-white rounded-xl p-6 flex-grow lg:w-[30vw] lg:max-w-[390px] justify-around mt-6 m-4 shadow-lg"
+            className="flex border border-x-blue-50 text-darkblue flex-col items-center  rounded-xl p-6 flex-grow lg:w-[30vw] lg:max-w-[390px] justify-around mt-6 m-4 shadow-lg"
           >
-            <h2 className="text-lg font-bold text-white">{value.title}</h2>
-            <p className="text-center mt-2">{value.description}</p>
+            <h2 className="text-3xl font-extrabold text-darkblue">
+              {value.title}
+            </h2>
+            <p className="text-center text-1xl  mt-2">{value.description}</p>
           </div>
         ))}
       </div>

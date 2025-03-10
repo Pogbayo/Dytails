@@ -31,9 +31,9 @@ export default function TopServices() {
   return (
     <div>
       <HomepageDivider>
-        <h1>Top Services</h1>
+        <h1 className=" text-white">Top Services</h1>
       </HomepageDivider>
-      <div className="lg:mt-12 flex flex-col items-center">
+      <div className="lg:mt-12 text-darkblue flex flex-col items-center">
         {services.map((service, index) => (
           <div
             className={`flex flex-col justify-around lg:justify-center items-center pb-8 lg:p-12 ${

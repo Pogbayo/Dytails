@@ -56,8 +56,8 @@ export const Faqs = () => {
   return (
     <div className="flex flex-col items-center">
       <HomepageDivider>
-        <h1>FAQs</h1>
-        <p>Need some answers?</p>
+        <h1 className=" text-white">FAQs</h1>
+        <p className=" text-white">Need some answers?</p>
       </HomepageDivider>
       <div className="mt-4 mb-5 lg:w-1/2 max-w-[800px]">
         {faqs.map((faq) => (

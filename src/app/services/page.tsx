@@ -29,8 +29,8 @@ export default function page() {
           </div>
         </div>
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
-          <h2 className="mb-4">Real Estate Investments</h2>
-          <p className="mb-4">
+          <h2 className="mb-4 text-darkblue">Real Estate Investments</h2>
+          <p className="mb-4 text-darkblue">
             Strategic acquisitions, development, and management of commercial,
             residential, and mixed-use properties. the home is in good condition
             and identify any potential issues.
@@ -57,8 +57,8 @@ export default function page() {
           </div>
         </div>
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
-          <h2 className="mb-4">Manufacturing Investments</h2>
-          <p className="mb-4">
+          <h2 className="mb-4 text-darkblue">Manufacturing Investments</h2>
+          <p className="mb-4 text-darkblue">
             Supporting innovative manufacturing ventures that drive economic
             growth and technological advancement.
           </p>
@@ -86,11 +86,11 @@ export default function page() {
 
         {/* Right Content */}
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
-          <h2 className="mb-4 text-center lg:text-left">
+          <h2 className="mb-4 text-darkblue text-center lg:text-left">
             {" "}
             Production Investments
           </h2>
-          <p className="mb-4 text-center lg:text-left">
+          <p className="mb-4 text-darkblue text-center lg:text-left">
             Investing in high-potential production companies across various
             sectors to foster industrial growth.
           </p>
@@ -111,8 +111,10 @@ export default function page() {
           </div>
         </div>
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
-          <h2 className="mb-4">Service Investments and Provisions</h2>
-          <p className="mb-4">
+          <h2 className="mb-4 text-darkblue">
+            Service Investments and Provisions
+          </h2>
+          <p className="mb-4 text-darkblue">
             Partnering with service-oriented businesses that enhance quality of
             life and contribute to societal well-being. Provision of logistics
             and procurement services and facilitating seamless
