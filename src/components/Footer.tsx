@@ -13,23 +13,25 @@ export default function Footer() {
             <FontAwesomeIcon icon={faPhone} />
           </div>
           <div className="flex flex-col items-start ml-4">
-            <h3 className="lg:text-sm font-bold">Contact Us</h3>
-            <p className="text-xs lg:text-sm">info@dytails.com </p>
-            <p className="lg:text-xs"> (925) 577 7069 </p>
+            <h3 className="lg:text-sm font-bold text-darkblue">Contact Us</h3>
+            <p className="text-xs lg:text-sm  text-darkblue">
+              info@dytails.com{" "}
+            </p>
+            <p className="lg:text-xs  text-darkblue"> (925) 577 7069 </p>
           </div>
         </div>
         <div className="flex items-center lg:order-1 lg:ml-12">
           <Image src={plainLogo} alt="" />
           <div className="flex flex-col text-left w-56 ml-4">
-            <p className="lg:text-xs">Licenced with:</p>
-            <p className="lg:text-xs">
+            <p className="lg:text-xs  text-darkblue">Licenced with:</p>
+            <p className="lg:text-xs  text-darkblue">
               State of Florida Department of Business and Professional
               Regulation
             </p>
-            <p className="lg:text-xs">LN: HI17145</p>
+            <p className="lg:text-xs  text-darkblue">LN: HI17145</p>
           </div>
         </div>
-        <p className="lg:order-2 lg:text-sm">
+        <p className="lg:order-2 lg:text-sm  text-darkblue">
           2025 © | Dytails Investments LLC{" "}
         </p>
       </div>
