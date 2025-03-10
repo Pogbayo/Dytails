@@ -8,7 +8,7 @@ import { AdminDataProvider } from "@/context/AdminDataContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EDytails Investment",
+  title: "Dytails Investment",
   description: "Dytails Investment",
   icons: {
     icon: "/plainlogo.svg",
