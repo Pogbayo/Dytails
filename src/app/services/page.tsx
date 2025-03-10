@@ -31,16 +31,20 @@ export default function page() {
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
           <h2 className="mb-4 text-darkblue">Real Estate Investments</h2>
           <p className="mb-4 text-darkblue">
-            Strategic acquisitions, development, and management of commercial,
-            residential, and mixed-use properties. the home is in good condition
-            and identify any potential issues.
+            Our real estate investment strategies are designed to deliver
+            long-term value through careful market analysis and strategic asset
+            management. With a focus on both commercial and residential
+            opportunities, we identify high-potential properties and optimize
+            their performance for maximum return. From acquisition and
+            development to property management and sales, we approach each
+            project with a commitment to sustainability, profitability, and
+            market responsiveness. Our extensive experience in real estate
+            allows us to navigate complex market conditions, offering our
+            clients reliable investment solutions that grow their portfolios and
+            secure their financial future. Through smart investments and
+            innovative approaches, we continue to redefine what’s possible in
+            the real estate sector.
           </p>
-          {/* <h2 className="font-normal">Homes up to 2500 sq ft</h2>
-          <h1>$350</h1>
-          <h2 className="font-normal">Homes above 2500 sq ft</h2>
-          <h1>$0.10</h1>
-          <h2 className="mb-4 font-normal">Per additional sq ft</h2>
-          <ScheduleButton size="big" color="royalblue" /> */}
         </div>
       </div>
       <div className="flex flex-col lg:flex-row-reverse justify-center items-center w-full lg:w-4/5 mt-0 lg:mt-6 mb-0 lg:mb-6">
@@ -57,10 +61,19 @@ export default function page() {
           </div>
         </div>
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
-          <h2 className="mb-4 text-darkblue">Manufacturing Investments</h2>
+          <h2 className="mb-4 text-darkblue">Manufacturing </h2>
           <p className="mb-4 text-darkblue">
-            Supporting innovative manufacturing ventures that drive economic
-            growth and technological advancement.
+            Our manufacturing division is dedicated to producing high-quality
+            products with precision and efficiency. Leveraging state-of-the-art
+            equipment and a skilled workforce, we excel in delivering solutions
+            that meet rigorous industry standards. We focus on continuous
+            improvement and innovation, ensuring that our processes remain
+            flexible and scalable to accommodate both large-scale and
+            specialized projects. Whether developing new product lines or
+            optimizing existing ones, our commitment to excellence and customer
+            satisfaction drives every step of our manufacturing operations. From
+            design to delivery, we focus on creating products that stand out in
+            terms of durability, functionality, and design.
           </p>
           {/* <h2 className="font-normal">With Elite Home Inspection</h2>
           <h1>$50</h1>
@@ -88,11 +101,21 @@ export default function page() {
         <div className="flex-col items-center lg:items-start max-w-[500px] p-4 lg:p-6 lg:w-1/2 lg:min-h-[450px] flex justify-center">
           <h2 className="mb-4 text-darkblue text-center lg:text-left">
             {" "}
-            Production Investments
+            Production
           </h2>
           <p className="mb-4 text-darkblue text-center lg:text-left">
-            Investing in high-potential production companies across various
-            sectors to foster industrial growth.
+            At the core of our operations, our production capabilities are built
+            on a foundation of innovation, precision, and efficiency. With
+            extensive experience in manufacturing and real estate development,
+            we deliver high-quality, customized solutions that cater to a broad
+            range of client needs. Our commitment to utilizing cutting-edge
+            technology and sustainable practices ensures that every project
+            meets the highest standards of performance and reliability. Whether
+            we are optimizing production processes in manufacturing or
+            overseeing large-scale real estate investments, our focus is always
+            on creating value and fostering long-term growth for our clients. We
+            pride ourselves on our ability to adapt to evolving market demands
+            and consistently exceed expectations.
           </p>
         </div>
       </div>
@@ -114,7 +137,7 @@ export default function page() {
           <h2 className="mb-4 text-darkblue">
             Service Investments and Provisions
           </h2>
-          <p className="mb-4 text-darkblue">
+          <p className="mb-4 text-darkblue ">
             Partnering with service-oriented businesses that enhance quality of
             life and contribute to societal well-being. Provision of logistics
             and procurement services and facilitating seamless
